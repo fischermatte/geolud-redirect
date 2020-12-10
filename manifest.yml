@@ -7,3 +7,4 @@ applications:
   path: web
   routes:
     - route: geolud.mybluemix.net
+    - route: geolud-ui.mybluemix.net
