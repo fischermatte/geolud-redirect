@@ -1,10 +1,10 @@
 ---
 applications:
 - name: geolud-client-redirect
-  buildpack: staticfile_buildpack
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
   memory: 64M
+  path: public
   disk_quota: 256M
-  path: web
   routes:
     - route: geolud.mybluemix.net
     - route: geolud-ui.mybluemix.net
